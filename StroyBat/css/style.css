@@ -555,7 +555,7 @@ footer {
 /*Медиа запросы*/
 @media (max-width: 480px) {
   .main-logo-border {
-    width: 77px;
+    width: 92px;
     height: 27px;
     -webkit-border: 1px solid #706b73;
     -moz-border: 1px solid #706b73;
