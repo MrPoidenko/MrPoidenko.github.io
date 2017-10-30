@@ -486,25 +486,39 @@ i.fa-camera-retro {
   margin-bottom: -40px;
 }
 /* Scroll */
-#back-to-top {
+#back-to-top,
+#back-to-top:active,
+#back-to-top:visited {
   position: fixed;
-  bottom: 40px;
-  right: 5px;
+  bottom: 30px;
+  right: 7px;
   z-index: 9999;
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   text-align: center;
-  line-height: 30px;
-  background: #f5f5f5;
-  color: #444;
+  background: #fc5744;
+  color: #fff;
   cursor: pointer;
-  border: 0;
-  border-radius: 2px;
   text-decoration: none;
   transition: opacity 1s ease-out;
   opacity: 0;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+#back-to-top i,
+#back-to-top:active i,
+#back-to-top:visited i {
+  padding-top: 0px;
+  margin-top: -3px;
 }
 #back-to-top:hover {
+  color: #444;
   background: #e9ebec;
 }
 #back-to-top.show {
@@ -608,10 +622,14 @@ footer {
     font-size: 14px;
   }
   #back-to-top {
-    bottom: 0px;
-    width: 100%;
-    left: 5px;
-    margin-left: -5px;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    bottom: 3px;
+    right: 1px;
+  }
+  #back-to-top i {
+    margin-top: -5px;
   }
   #back-to-top.show {
     opacity: 0.8;
@@ -683,10 +701,14 @@ footer {
     font-size: 14px;
   }
   #back-to-top {
-    bottom: 0px;
-    width: 100%;
-    left: 5px;
-    margin-left: -5px;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    bottom: 4px;
+    right: 2px;
+  }
+  #back-to-top i {
+    margin-top: -5px;
   }
   #back-to-top.show {
     opacity: 0.8;
@@ -749,8 +771,11 @@ footer {
     margin-bottom: 30px;
     font-size: 20px;
   }
+  #back-to-top {
+    right: 3px;
+  }
   #back-to-top.show {
-    opacity: 0.9;
+    opacity: 0.7;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -773,5 +798,11 @@ footer {
   }
   #main {
     height: 81vh;
+  }
+  #back-to-top {
+    right: 10px;
+  }
+  #back-to-top.show {
+    opacity: 0.9;
   }
 }
