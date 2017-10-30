@@ -1,0 +1,117 @@
+<section id="products">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-6 products">
+				<h2>Feature Products</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.</p>
+				<div class="line-text"></div>
+			</div>
+			<div class="col-md-3">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 products-menu">
+				<ul>
+					<li><a href="#"><h2>All</h2></a>
+					</li><li><a href="#"><h2>Print Template</h2></a>
+					</li><li><a href=""><h2>Web Template</h2></a>
+					</li><li><a href=""><h2>User Interface</h2></a>
+					</li><li><a href=""><h2>Mock-Up</h2></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row works-row">
+				<div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1  col-sm-6 col-sm-offset-0">
+					<div class="works-box">
+						<img src="img/products/1.png" alt="Описание картинки">
+						<div class="signature">
+							<div class="sign">
+							<p>Work <span>#1</span></p>
+							<button>Visit Gallery</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1  col-sm-6 col-sm-offset-0">
+					<div class="works-box">
+						<img src="img/products/2.png" alt="Описание картинки">
+						<div class="signature">
+							<div class="sign">
+							<p>Work <span>#2</span></p>
+							<button>Visit Gallery</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1  col-sm-6 col-sm-offset-0">
+					<div class="works-box">
+						<img src="img/products/3.png" alt="Описание картинки">
+						<div class="signature">
+							<div class="sign">
+							<p>Work <span>#3</span></p>
+							<button>Visit Gallery</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1  col-sm-6 col-sm-offset-0">
+					<div class="works-box">
+						<img src="img/products/4.png" alt="Описание картинки">
+						<div class="signature">
+							<div class="sign">
+							<p>Work <span>#4</span></p>
+							<button>Visit Gallery</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1  col-sm-6 col-sm-offset-0">
+					<div class="works-box">
+						<img src="img/products/5.png" alt="Описание картинки">
+						<div class="signature">
+							<div class="sign">
+							<p>Work <span>#5</span></p>
+							<button>Visit Gallery</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1  col-sm-6 col-sm-offset-0">
+					<div class="works-box">
+						<img src="img/products/6.png" alt="Описание картинки">
+						<div class="signature">
+							<div class="sign">
+							<p>Work <span>#6</span></p>
+							<button>Visit Gallery</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1  col-sm-6 col-sm-offset-0">
+					<div class="works-box">
+						<img src="img/products/7.png" alt="Описание картинки">
+						<div class="signature">
+							<div class="sign">
+							<p>Work <span>#7</span></p>
+							<button>Visit Gallery</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0">
+					<div class="works-box">
+						<img src="img/products/8.png" alt="Описание картинки">
+						<div class="signature">
+							<div class="sign">
+							<p>Work <span>#8</span></p>
+							<button>Visit Gallery</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- /row -->
+	</div>
+</section>
