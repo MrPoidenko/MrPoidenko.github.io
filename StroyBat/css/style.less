@@ -47,7 +47,6 @@ input, button, textarea {
 	&:focus{
 		outline: none;
 	}
-
 }
 header{
 	min-height: 620px;
@@ -214,6 +213,31 @@ svg g {
 		-o-transition: all 0.4s;
 		transition: all 0.4s;
 	}
+	&-vibrate {
+    animation: vbr 0.5s infinite alternate;
+    &:hover, &:active, &:visited {
+    	animation: vbr 0s infinite alternate;
+    }
+}
+
+@keyframes vbr {
+    from {
+        margin-left: -40%;
+        animation-timing-function: cubic-bezier(0.25, 0.01, 0.55, 0.16);
+    }
+    10% {
+        margin-left:-39%;
+        animation-timing-function: cubic-bezier(0.52, 0.44, 0.47, 0.44);
+    }
+    20% {
+        margin-left:-41%;
+        animation-timing-function: cubic-bezier(0.53, 0.56, 0.48, 0.56);
+    }
+    30% {
+        margin-left:-40%;
+        animation-timing-function: cubic-bezier(0.45, 0.84, 0.75, 0.99);
+    }
+}
 	&-btn {
 		position: absolute;
 		left: 50%;
@@ -239,6 +263,9 @@ svg g {
 			box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
 		}
 	}
+}
+#know-more-first-1, #know-more-first-2, #know-more-first-3, #know-more-first-4 {
+	font-size: 16px;
 }
 .btn-plus{
 	vertical-align: middle;
@@ -284,6 +311,9 @@ i.fa-camera-retro {
 /*Works Section*/
 #works {
 	background-color: @light-grey;
+	b {
+		font-weight: 600;
+	}
 }
 .works-box {
 	margin-bottom: 5%;
