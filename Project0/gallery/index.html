@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	
+	
 	<title>Page Scroll Effects | CodyHouse</title>
 </head>
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
@@ -53,16 +53,16 @@
 	</nav>
 	<nav>
 		<ul class="cd-vertical-nav1">
-			<li><a href="../index.html" class="home" alt="HOME" title="HOME">HOME</a></li>
+			<a href="../index.html" class="home" alt="HOME" title="HOME"><li><span>HOME</span></li></a>
 		</ul>
 	</nav> <!-- .cd-vertical-nav -->
-<script src="js/jquery-2.1.4.js"></script>
-<script src="js/velocity.min.js"></script>
-<script src="js/velocity.ui.min.js"></script>
-<script src="js/headhesive.min.js"></script>
-<script>
-	var header = new Headhesive('.header');
-	var options = {
+	<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/velocity.min.js"></script>
+	<script src="js/velocity.ui.min.js"></script>
+	<script src="js/headhesive.min.js"></script>
+	<script>
+		var header = new Headhesive('.header');
+		var options = {
   // Scroll offset. Accepts Number or "String" (for class/ID)
   offset: 300, // OR — offset: '.classToActivateAt',
 
@@ -91,7 +91,7 @@
   onUnstick: function () {},
   onDestroy: function () {},
 };
-	var header = new Headhesive('.header', options);
+var header = new Headhesive('.header', options);
 </script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
