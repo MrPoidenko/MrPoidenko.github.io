@@ -26,7 +26,8 @@ section {
   color: #fc5744;
 }
 .section-header p {
-  font-size: 16px;
+  padding-top: 5px;
+  font-size: 18px;
 }
 /*Style*/
 body {
@@ -51,7 +52,7 @@ header {
   margin-top: 3%;
 }
 .main-logo-border {
-  width: 190px;
+  width: 250px;
   height: 55px;
   border-width: 3px;
   border-color: #706b73;
@@ -97,7 +98,7 @@ svg g {
 }
 svg rect {
   transition: all .3s ease;
-  fill: #E04681;
+  fill: #706b73;
 }
 svg g {
   width: 100px;
@@ -108,7 +109,7 @@ svg g {
   text-align: center;
 }
 .main-text h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #6b6b6b;
@@ -121,6 +122,7 @@ svg g {
   padding-right: 30px;
   color: #565656;
   font-weight: 700;
+  font-size: 18px;
 }
 /*Header Form*/
 .main-form {
@@ -193,10 +195,11 @@ svg g {
   font-size: 50px;
 }
 .process-box h4 {
-  margin-top: 25px;
+  margin-top: 35px;
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
+  padding-bottom: 40px;
 }
 .process-box p {
   font-size: 16px;
@@ -585,7 +588,12 @@ footer {
   box-shadow: 0px 11px 20px 0px rgba(20, 20, 21, 0.07);
 }
 .modal {
+  color: #333333;
   font-size: 1.7em;
+}
+.modal a {
+  text-decoration: none;
+  color: #333333;
 }
 /*Медиа запросы*/
 @media (max-width: 480px) {

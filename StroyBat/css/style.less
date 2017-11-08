@@ -35,7 +35,8 @@ section{
 		}
 	}
 	p {
-		font-size: 16px;
+		padding-top: 5px;
+		font-size: 18px;
 	}
 }
 /*Style*/
@@ -60,7 +61,7 @@ header{
 	margin-top: 3%;
 }
 .main-logo-border {
-	width: 190px;
+	width: 250px;
 	height: 55px;
 	border-width: 3px;
 	border-color: #706b73;
@@ -106,7 +107,7 @@ svg g {
 }
 svg rect {
 	transition: all .3s ease;
-	fill: #E04681;
+	fill: #706b73;
 }
 svg g {
 	width: 100px;
@@ -114,7 +115,7 @@ svg g {
 }
 .main-text {
 	h1 {
-		font-size: 50px;
+		font-size: 40px;
 		.opn-bold;
 		color: @base-grey;
 	}
@@ -126,6 +127,7 @@ svg g {
 		padding-right: 30px;
 		color: @base-text;
 		font-weight: 700;
+		font-size: 18px;
 	}
 	margin-top: 2%;
 	text-align: center;
@@ -196,9 +198,10 @@ svg g {
 			font-size: 50px;
 		}
 		h4 {
-			margin-top: 25px;
+			margin-top: 35px;
 			font-size: 20px;
 			.opn-bold;
+			padding-bottom: 40px;
 		}
 		p {
 			font-size: 16px;
@@ -593,7 +596,12 @@ footer {
 	}
 }
 .modal {
+	color: @base-black;
 	font-size: 1.7em;
+	a {
+		text-decoration: none;
+		color: @base-black;
+	}
 }
 /*Медиа запросы*/
 @media (max-width: 480px) {
