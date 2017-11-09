@@ -56,7 +56,7 @@ Main Components
   font-size: 2.4rem;
 }
 .cd-section:first-of-type > div {
-  background: #2e5367 url(../275937855.jpg) no-repeat center center;
+  background: #2e5367 url(../img/20160604_170826.jpg) no-repeat center center;
   background-size: cover;
 }
 .cd-section:first-of-type > div::before {
